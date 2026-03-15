@@ -1,0 +1,158 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ─── CSS Variables ─────────────────────────────────────────────────────── */
+:root {
+  --blue-950: #0c1b4d;
+  --blue-900: #1e3a8a;
+  --blue-700: #1d4ed8;
+  --blue-500: #3b82f6;
+  --blue-300: #93c5fd;
+  --blue-100: #dbeafe;
+  --blue-50:  #eff6ff;
+  --ice:      #f5f9ff;
+  --white:    #ffffff;
+
+  --text-primary: #0c1b4d;
+  --text-body:    #1e3a8a;
+  --text-muted:   #64748b;
+
+  --glass-bg:     rgba(255, 255, 255, 0.75);
+  --glass-border: rgba(255, 255, 255, 0.55);
+  --glass-shadow: 0 8px 32px 0 rgba(15, 42, 110, 0.08);
+}
+
+/* ─── Base ───────────────────────────────────────────────────────────────── */
+body {
+  background-color: #f0f7ff;
+  background-image:
+    radial-gradient(ellipse 80% 50% at 15% -5%, rgba(59, 130, 246, 0.14) 0%, transparent 70%),
+    radial-gradient(ellipse 60% 40% at 85% 105%, rgba(147, 197, 253, 0.18) 0%, transparent 70%);
+  min-height: 100vh;
+  color: var(--text-primary);
+  font-family: 'Satoshi', -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+/* ─── Glass Card Variants ────────────────────────────────────────────────── */
+.glass-card {
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.55);
+  box-shadow: 0 8px 32px rgba(15, 42, 110, 0.08), inset 0 1px 0 rgba(255, 255, 255, 0.9);
+  border-radius: 20px;
+}
+
+.glass-card-elevated {
+  background: rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(24px) saturate(200%);
+  -webkit-backdrop-filter: blur(24px) saturate(200%);
+  border: 1px solid rgba(255, 255, 255, 0.55);
+  box-shadow: 0 8px 32px rgba(15, 42, 110, 0.08), inset 0 1px 0 rgba(255, 255, 255, 0.9);
+  border-radius: 20px;
+}
+
+.glass-card-subtle {
+  background: rgba(255, 255, 255, 0.45);
+  backdrop-filter: blur(12px) saturate(140%);
+  -webkit-backdrop-filter: blur(12px) saturate(140%);
+  border: 1px solid rgba(255, 255, 255, 0.55);
+  box-shadow: 0 8px 32px rgba(15, 42, 110, 0.08), inset 0 1px 0 rgba(255, 255, 255, 0.9);
+  border-radius: 20px;
+}
+
+/* ─── Typography Utilities ───────────────────────────────────────────────── */
+.mono {
+  font-family: 'JetBrains Mono', 'Fira Code', monospace;
+}
+
+/* ─── Stagger Animations ─────────────────────────────────────────────────── */
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(16px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.stagger-item {
+  animation: slideUp 0.45s ease both;
+}
+.stagger-item:nth-child(1) { animation-delay: 0.05s; }
+.stagger-item:nth-child(2) { animation-delay: 0.10s; }
+.stagger-item:nth-child(3) { animation-delay: 0.15s; }
+.stagger-item:nth-child(4) { animation-delay: 0.20s; }
+.stagger-item:nth-child(5) { animation-delay: 0.25s; }
+.stagger-item:nth-child(6) { animation-delay: 0.30s; }
+.stagger-item:nth-child(7) { animation-delay: 0.35s; }
+.stagger-item:nth-child(8) { animation-delay: 0.40s; }
+
+/* ─── Ant Design Overrides ───────────────────────────────────────────────── */
+.ant-card {
+  background: rgba(255, 255, 255, 0.75) !important;
+  border: 1px solid rgba(219, 234, 254, 0.8) !important;
+  backdrop-filter: blur(20px) !important;
+  -webkit-backdrop-filter: blur(20px) !important;
+  border-radius: 20px !important;
+  box-shadow: 0 8px 32px rgba(15, 42, 110, 0.08) !important;
+}
+
+.ant-card-head {
+  border-bottom: 1px solid rgba(219, 234, 254, 0.6) !important;
+  background: transparent !important;
+}
+
+.ant-input,
+.ant-input-affix-wrapper {
+  background: rgba(255, 255, 255, 0.8) !important;
+  border-color: rgba(59, 130, 246, 0.2) !important;
+  color: var(--text-primary) !important;
+  border-radius: 12px !important;
+}
+
+.ant-input:focus,
+.ant-input-affix-wrapper:focus,
+.ant-input-affix-wrapper-focused {
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12) !important;
+  border-color: #2563eb !important;
+}
+
+.ant-form-item-label label {
+  color: var(--text-body) !important;
+  font-weight: 600 !important;
+  font-size: 13px !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.04em !important;
+}
+
+.ant-upload-drag {
+  background: rgba(239, 246, 255, 0.6) !important;
+  border: 2px dashed rgba(59, 130, 246, 0.4) !important;
+  border-radius: 16px !important;
+}
+
+.ant-upload-drag:hover {
+  background: rgba(219, 234, 254, 0.5) !important;
+  border-color: rgba(37, 99, 235, 0.65) !important;
+}
+
+.ant-progress-inner {
+  background: rgba(59, 130, 246, 0.08) !important;
+}
+
+.ant-spin-dot-item {
+  background-color: #2563eb !important;
+}
+
+.ant-btn-primary {
+  font-weight: 700 !important;
+  letter-spacing: 0.02em !important;
+  border-radius: 12px !important;
+}
+
+.ant-steps-item-title {
+  color: var(--text-primary) !important;
+  font-weight: 600 !important;
+}
+
+.ant-steps-item-description {
+  color: var(--text-muted) !important;
+}

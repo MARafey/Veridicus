@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "Bash(uv add:*)",
+      "Bash(uv:*)",
+      "Bash(npx create-next-app@14:*)",
+      "Bash(npm install:*)",
+      "Bash(npx tsc:*)",
+      "Bash(cd \"C:\\\\Users\\\\Hp\\\\Desktop\\\\AI Polygraph\\\\frontend\" && npm run lint 2>&1)",
+      "Bash(cd:*)"
+    ]
+  }
+}

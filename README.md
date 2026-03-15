@@ -20,10 +20,7 @@ https://github.com/user-attachments/assets/83466f49-8830-4eee-812a-60802df8a38c
 
 > Interactive React Flow canvas — visualises extracted skills, GitHub repos, and PDF sources as a 3-level hierarchy: Candidate → Repo → Language/Skill → Resource.
 
-<!-- Add knowledge graph walkthrough video here -->
-<video src="https://github.com/MARafey/Veridicus/raw/master/videos/veridicus_kg.mp4" controls="controls" style="max-width: 100%; height: auto;">
-  Your browser does not support the video tag.
-</video>
+https://github.com/user-attachments/assets/023f048b-db4f-42d6-8bc7-93885e064fa9
 
 ---
 
@@ -31,9 +28,7 @@ https://github.com/user-attachments/assets/83466f49-8830-4eee-812a-60802df8a38c
 
 > Upload proprietary PDFs, manage assessments, trigger GitHub re-verification, and view candidate reports.
 
-<video src="https://github.com/MARafey/Veridicus/raw/master/videos/veridicus_admin.mp4" controls="controls" style="max-width: 100%; height: auto;">
-  Your browser does not support the video tag.
-</video>
+https://github.com/user-attachments/assets/48c0b2b4-a780-4fd9-bfb3-122254e037d8
 
 ---
 

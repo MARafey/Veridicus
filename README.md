@@ -12,11 +12,7 @@ Upload a resume → AI extracts skills + GitHub username → scrapes technical P
 
 > The timed assessment experience — one question at a time, 120s per question, questions tagged by source (Code Verified / Documentation).
 
-<div align="center">
-  <video src="videos/Interogation%20Room.mp4" width="100%" controls>
-    Your browser does not support the video tag.
-  </video>
-</div>
+<video src="videos/interrogation_room.mp4" width="100%" controls></video>
 
 ---
 
@@ -25,11 +21,7 @@ Upload a resume → AI extracts skills + GitHub username → scrapes technical P
 > Interactive React Flow canvas — visualises extracted skills, GitHub repos, and PDF sources as a 3-level hierarchy: Candidate → Repo → Language/Skill → Resource.
 
 <!-- Add knowledge graph walkthrough video here -->
-<div align="center">
-  <video src="videos/Veridicus%20-%20KG.mp4" width="100%" controls>
-    Your browser does not support the video tag.
-  </video>
-</div>
+<video src="videos/veridicus_kg.mp4" width="100%" controls></video>
 ---
 
 ### Admin Panel
@@ -37,11 +29,7 @@ Upload a resume → AI extracts skills + GitHub username → scrapes technical P
 > Upload proprietary PDFs, manage assessments, trigger GitHub re-verification, and view candidate reports.
 
 <!-- Add admin panel walkthrough video here -->
-<div align="center">
-  <video src="videos/Veridicus%20-%20Admin.mp4" width="100%" controls>
-    Your browser does not support the video tag.
-  </video>
-</div>
+<video src="videos/veridicus_admin.mp4" width="100%" controls></video>
 
 ---
 

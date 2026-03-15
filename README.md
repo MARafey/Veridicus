@@ -12,9 +12,7 @@ Upload a resume → AI extracts skills + GitHub username → scrapes technical P
 
 > The timed assessment experience — one question at a time, 120s per question, questions tagged by source (Code Verified / Documentation).
 
-<video src="https://github.com/MARafey/Veridicus/raw/master/videos/interrogation_room.mp4" controls="controls" style="max-width: 100%; height: auto;">
-  Your browser does not support the video tag.
-</video>
+https://github.com/user-attachments/assets/83466f49-8830-4eee-812a-60802df8a38c
 
 ---
 

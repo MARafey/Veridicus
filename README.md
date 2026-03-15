@@ -13,7 +13,7 @@ Upload a resume → AI extracts skills + GitHub username → scrapes technical P
 > The timed assessment experience — one question at a time, 120s per question, questions tagged by source (Code Verified / Documentation).
 
 <div align="center">
-  <video src="videos\Interogation Room.mp4" width="100%" controls>
+  <video src="videos/Interogation%20Room.mp4" width="100%" controls>
     Your browser does not support the video tag.
   </video>
 </div>
@@ -26,7 +26,7 @@ Upload a resume → AI extracts skills + GitHub username → scrapes technical P
 
 <!-- Add knowledge graph walkthrough video here -->
 <div align="center">
-  <video src="videos\Veridicus - KG.mp4" width="100%" controls>
+  <video src="videos/Veridicus%20-%20KG.mp4" width="100%" controls>
     Your browser does not support the video tag.
   </video>
 </div>
@@ -38,7 +38,7 @@ Upload a resume → AI extracts skills + GitHub username → scrapes technical P
 
 <!-- Add admin panel walkthrough video here -->
 <div align="center">
-  <video src="videos\Veridicus - Admin.mp4" width="100%" controls>
+  <video src="videos/Veridicus%20-%20Admin.mp4" width="100%" controls>
     Your browser does not support the video tag.
   </video>
 </div>

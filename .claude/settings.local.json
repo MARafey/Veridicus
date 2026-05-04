@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "Bash(uv add:*)",
+      "Bash(uv:*)",
+      "Bash(npx create-next-app@14:*)",
+      "Bash(npm install:*)",
+      "Bash(npx tsc:*)",
+      "Bash(cd \"C:\\\\Users\\\\Hp\\\\Desktop\\\\AI Polygraph\\\\frontend\" && npm run lint 2>&1)",
+      "Bash(cd:*)",
+      "Bash(ls /c/Users/Hp/Desktop/Veridicus/frontend/src/app/assessment/[id])",
+      "Bash(npm run:*)",
+      "Bash(npx next:*)",
+      "Bash(node_modules/.bin/next lint:*)",
+      "Bash(ls node_modules/.bin/next*)",
+      "Bash(wc -l \"c:/Users/Hp/Desktop/Veridicus/backend/agents\"/*.py)",
+      "Bash(node -e \"require\\('@ant-design/colors'\\)\")",
+      "Bash(npm ls:*)",
+      "Bash(node -e \"require\\('next-auth'\\)\")",
+      "Bash(rm -rf \"/c/Users/Hp/Desktop/Veridicus/frontend/.next\")",
+      "Bash(NEXT_TELEMETRY_DISABLED=1 npm run build)"
+    ]
+  }
+}
